@@ -1,0 +1,339 @@
+/*start bootstrap edit*/
+@media (min-width: 768px){
+.navbar{
+    border-radius: 0px;
+}
+}
+
+/*end bootstrap edit*/
+.header{
+	background:	#EEB352;
+}
+.header .brand{
+	padding-left: 0;
+}
+.header h2{
+	color: #FFF;
+	text-transform: uppercase;
+}
+.header ul{
+	list-style: none;
+	padding-left: 0;
+	margin-top: 20px;
+    float: right;
+}
+@media (max-width: 768px){
+.header	.media{
+	padding-left: 0;
+	margin-top: 0;
+}
+.header ul{
+   float: none;
+}
+.header .brand{
+	padding-left: 15px;
+}
+}
+.header ul li{
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 15px;
+}
+.header ul li:first-child{
+	padding: 2px 7px 0 7px;
+	color: #fff;
+	background: #008ad3;
+	border-radius: 7px;
+}
+.header ul li:nth-child(3){
+	background: #08a0e9;
+	color: #fff;
+	border-radius: 7px;
+}
+.header ul li:nth-child(4){
+	background: #fff;
+	color: #08a0e9;
+	border-radius: 7px;
+}
+
+/*start navbar*/
+.navbar{
+	margin-bottom: 0;
+}
+.navbar ul li:first-child >a{
+	padding-left: 0;
+}
+.navbar ul .active-link a{
+	color: #EEB352;
+}
+.navbar ul li:not(.active-link) a{
+	color: #888;
+}
+.navbar .btn{
+    background: #222;
+    color: #888;
+}
+.navbar-form{
+	margin-right: 0;
+}
+.navbar-form .form-group{
+	position: relative;
+	padding-right: 0;
+
+}
+.navbar-form .form-group input{
+	background: #888;
+	border:none;
+}
+.navbar-form .form-group i{
+	position: absolute;
+    right: 20px;
+    color: #e9cbcb;
+    top: 10px;
+}
+/*end nvbar*/
+/*start body*/
+.site{
+	background: #D9C79F;
+}
+.site .our-site{
+	background: #40312A;
+	color: #FFF;
+	margin: 30px 0 30px 0;
+	border-radius: 5px;
+
+}
+.site .our-site h3,
+.blog .first h3,
+.footer h3{
+    color: #782f73;
+    font-size: 23px;
+    font-family: serif;
+    font-weight: bold;
+}
+.site .our-site h3{
+	 padding-left: 20px;
+}
+.site .our-site p{
+    padding-left: 20px;
+    line-height: 1.4;
+    color: #c6b5b5;
+    font-size: 20px;
+}
+.site .our-site .img{
+    padding: 30px 40px;
+    height: 330px;
+    width: 300px;
+    float: right;
+}
+.site .our-site button{
+	margin-left: 20px;
+	background: #EEB352;
+	font-size: 20px;
+	padding: 0 15px 0 15px;
+	margin-bottom: 15px;
+}
+.site .our-site >p{
+	background:#227783;
+   padding-bottom: 10px;
+   border-radius:0  0 5px 5px;
+}
+/*end body*/
+
+.blog {
+	background: #ECDFC9;
+	overflow: hidden;
+}
+.blog .first h5,
+.blog .second h5{
+    color: #726f6c;
+    font-size: 25px;
+    padding-top: 8px;
+ }
+.blog .first span,
+.blog .second span{
+ 	color: #EEB352;
+    font-size: 12px;
+ }
+ .blog .first .img,
+ .blog .second .img{
+ 	width: 90%;
+ 	height: 200px;
+ 	margin-bottom: 15px;
+    margin-top: 8px;
+ }
+.blog .first img,
+.blog .second img{
+ 	width: 100%;
+    height: 100%;
+
+ }
+.blog .first p,
+.blog .second p,
+.aside2 p{
+    line-height: 1.1;
+    font-size: 18px;
+    margin-right: 10%;
+}
+.blog .btn{
+	float: right;
+    margin-right: 10%;
+    background: #333;
+    color: #EEE;
+    padding: 7px 13px 3px 13px;
+    margin-bottom: 20px;
+}
+
+/*end the article*/
+/*start aside*/
+.tabs{
+	background:#277E96;
+	margin: 30px 0 30px 0;
+}
+.tabs ul{
+	list-style:none;
+	padding: 0;
+	margin:0;	
+}
+.tabs ul li{
+	display: inline-block;
+    padding: 5px 27px 5px 27px;
+    color: #FFF;
+    cursor:pointer;
+}
+.tabs ul li.inactive{
+	background: #333;
+}
+.tabs >div{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.tabs >div hr{
+	margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin-right: 10px;
+}
+.tabs >div:not(:first-of-type){
+	display: none;
+}
+.aside2 img{
+	width: 100%;
+	height: 150px;
+	border:2px #EEB352 solid;
+	background: #fff;
+	padding:3px;
+}
+.aside2 p{
+    line-height: 1.1;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.aside3{
+	margin-right: 0;
+	margin-left: 0;
+}
+.aside3 img{
+	border:2px #EEB352 solid;
+	background: #fff;
+	padding:3px;
+}
+.aside3 :nth-child(2){
+	padding-left: 0;
+}
+.aside3 :nth-child(3){
+	padding-right: 0;
+}
+
+
+/*end the aside*/
+
+/*start footer*/
+.footer{
+	background: #333;
+	padding-left: 0;
+}
+.footer h3{
+	font-size: 20px;
+}
+
+.footer form input,
+.footer form button,
+.footer form textarea{
+	height: 34px;
+    padding: 15px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #ECDFC9;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.footer form textarea{
+	height: 150px;
+}
+.footer .btn{
+	background: #EEB352;
+	color: #FFF;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.footer .images {
+	padding-left: -15px;
+}
+
+.footer .images img{
+	padding-right: 0;
+	padding-left: 0;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	border:2px #EEB352 solid;
+}
+.footer .info{
+	overflow: hidden;	
+	padding-right: 0;
+}
+.footer .info p{
+	color: #da8888;
+	margin-bottom: 0;
+	margin-left: 15px;
+}
+.footer h3{
+	margin-left: 15px;
+}
+.footer .first{
+	margin-left: -15px
+}
+.footer .info span{
+    color: #654363;
+	display: block;
+	margin-bottom: 17px;
+	margin-left: 15px;
+}
+.footer .info button{
+	float: right;
+
+}
+@media (max-width: 768px){
+.footer .info button{
+    margin-bottom: 20px;
+}
+}
+/*end footer*/
+.copy{
+	background: #277E96;
+	overflow: hidden;
+}
+.copy p{
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.copy >div :nth-child(1){
+	float: right;
+}
